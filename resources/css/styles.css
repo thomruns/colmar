@@ -3,6 +3,37 @@ body {
   font-size: 16px;
 }
 
+/**** Main Styles ****/
+
+section {
+  display: flex;
+}
+
+h2 {
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+/*** Navigation styles *******/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+}
+
+nav .logo {
+  margin-left: 24px;
+}
+
+nav .menu-bar {
+  margin-right: 24px;
+}
+
+nav .menu-bar ul{
+  display: flex;
+}
+
 h1 {
   color: blue; /*test colors only; delete*/
 }
