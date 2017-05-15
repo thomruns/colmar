@@ -104,7 +104,6 @@ nav .menu-bar ul{
 }
 
 .hero_content {
-  /*background-color: yellow;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -140,21 +139,57 @@ nav .menu-bar ul{
   background-color: #000;
 }
 
-/****** Info section styles ********/
+/* ** Information section styles ** */
 
-#info {
-    background-color: #6e6e6e;
-    margin: 32px 40px 32px 24px;
-    max-width: 100%;
+#information {
+    background-color: purple;
+    color: #fff;
+    /*margin: 32px 0px 32px 0px;*/
+    width: auto;
 }
 
-#info .practice{
-  /*max-width: 25%;*/
+#information .info-hero {
+  /*background-color: blue;*/
+  margin-left: 24px;
+  margin-right: 1.5rem;
+  border: 2px solid black;
+  width: 65%;
 }
 
+#information .info-hero img {
+  width: 100%;
+  height: auto;
+}
 
-#info .practice figure .img{
-  width: 60%;
+#information .features {
+  width: 423px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+#information .features .highlight {
+  display: flex;
+  border: 1px solid yellow;
+  padding: 16px;
+  width: auto;
+  max-height: 9.375rem;
+}
+#information .features .highlight img {
+  width: 35%;
+  height: auto;
+}
+
+#information .features .highlight .info-content {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#information .features .highlight .info-content h3, p {
+  padding-left: 16px;
 }
 
 /****** Courses section styles ********/
