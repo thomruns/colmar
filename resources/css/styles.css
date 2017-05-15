@@ -1,5 +1,5 @@
 body {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Raleway","Helvetica", "Arial", sans-serif;
   font-size: 16px;
 }
 
@@ -53,7 +53,7 @@ nav .menu-bar {
 }
 
 nav .logo span {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 nav .logo p {
@@ -71,15 +71,21 @@ nav .menu-bar ul{
 }
 
 .menu-bar ul li {
-  margin-left: 16px;
+  margin-left: 11px;
   text-decoration: none;
 }
 
 .menu-bar a {
+  padding: 5px;
   text-decoration: none;
-  color: #000;
+  color: #6e6e6e;
 }
 
+.menu-bar a:hover {
+  background-color: #454545;
+  color: #fff;
+  border-radius: 5px;
+}
 /****** Main section styles *******/
 
 #main {
@@ -109,8 +115,7 @@ nav .menu-bar ul{
 
 .hero_content h2 {
   font-size: 2.5rem;
-  /*margin-top: 15.6rem;*/
-  /*margin-bottom: 1.25rem;*/
+  margin-bottom: 1.25rem;
 }
 
 
@@ -120,14 +125,20 @@ nav .menu-bar ul{
 }
 
 .hero_content button {
-  width: 100%;
-  background-color: #000;
+  width: 90%;
+  background-color: #454545;
   border: none;
+  border-radius: 5px;
   padding: 8px;
   color: #fff;
   text-decoration: none;
   box-shadow: none;
 }
+
+.hero_content button:hover {
+  background-color: #000;
+}
+
 /****** Practice section styles ********/
 
 /****** Courses section styles ********/
