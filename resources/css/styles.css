@@ -4,5 +4,9 @@ body {
 }
 
 h1 {
-  color: blue;
+  color: blue; /*test colors only; delete*/
+}
+
+p {
+  color: red; /*test colors only; delete */
 }
