@@ -5,8 +5,13 @@ body {
 
 /**** Main Styles ****/
 
+.center {
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
 section {
-  display: flex;
+  /*display: flex;*/
 }
 
 h2 {
@@ -32,6 +37,21 @@ nav .menu-bar {
 
 nav .menu-bar ul{
   display: flex;
+}
+
+/****** Main hero section styles *******/
+
+/****** Practice section styles ********/
+
+/****** Learning section styles ********/
+
+/******* Thesis exhibit section styles *******/
+
+/****** Footer styles ***********/
+
+footer {
+  display: flex;
+  justify-content: space-between;
 }
 
 h1 {
