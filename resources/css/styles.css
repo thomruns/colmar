@@ -6,7 +6,7 @@ body {
 /**** Main Styles ****/
 
 .center {
-  margin: 0 auto;
+  margin: 0px auto;
   padding: 0 1em;
 }
 
@@ -34,11 +34,32 @@ h2 {
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: pink;
+  background-color: #fff;
+  height: 64px;
+  width: 100%;
+  margin-top: -65px;
+  position: fixed;
 }
 
 nav .logo {
   margin-left: 24px;
+  display: flex;
+  align-items: center;
+}
+
+nav .menu-bar {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo span {
+  font-weight: 900;
+}
+
+nav .logo p {
+  font-weight: 300;
+  color: black;
+  text-transform: uppercase;
 }
 
 nav .menu-bar {
@@ -49,10 +70,21 @@ nav .menu-bar ul{
   display: flex;
 }
 
+.menu-bar ul li {
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+.menu-bar a {
+  text-decoration: none;
+  color: #000;
+}
+
 /****** Main section styles *******/
 
 #main {
   background-color: lightgray;
+  margin-top: 65px;
 }
 
 #main .img_ctr {
@@ -68,6 +100,7 @@ nav .menu-bar ul{
   /*background-color: yellow;*/
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   align-content: center;
   max-width: 27%;
@@ -76,13 +109,14 @@ nav .menu-bar ul{
 
 .hero_content h2 {
   font-size: 2.5rem;
-  margin-top: 275px;
-  margin-bottom: 20px;
+  /*margin-top: 15.6rem;*/
+  /*margin-bottom: 1.25rem;*/
 }
 
 
 .hero_content p {
   margin-bottom: 20px;
+  color: #000;
 }
 
 .hero_content button {
@@ -127,12 +161,4 @@ footer {
 
 footer .footer_links ul {
   display: flex;
-}
-
-h1 {
-  color: blue; /*test colors only; delete*/
-}
-
-p {
-  color: red; /*test colors only; delete */
 }
