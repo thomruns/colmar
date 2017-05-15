@@ -7,13 +7,12 @@ body {
 
 .center {
   margin: 0px auto;
-  padding: 0 1em;
 }
 
 section {
   display: flex;
   background-color: orange;
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
 }
 
 .flex-column div{
@@ -39,6 +38,7 @@ nav {
   width: 100%;
   margin-top: -65px;
   position: fixed;
+  z-index: 5;
 }
 
 nav .logo {
@@ -89,8 +89,9 @@ nav .menu-bar ul{
 /****** Main section styles *******/
 
 #main {
-  background-color: lightgray;
+  background-color: #bdbdbd;
   margin-top: 65px;
+  width: auto;
 }
 
 #main .img_ctr {
@@ -139,7 +140,22 @@ nav .menu-bar ul{
   background-color: #000;
 }
 
-/****** Practice section styles ********/
+/****** Info section styles ********/
+
+#info {
+    background-color: #6e6e6e;
+    margin: 32px 40px 32px 24px;
+    max-width: 100%;
+}
+
+#info .practice{
+  /*max-width: 25%;*/
+}
+
+
+#info .practice figure .img{
+  width: 60%;
+}
 
 /****** Courses section styles ********/
 
