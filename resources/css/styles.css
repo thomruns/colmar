@@ -11,8 +11,18 @@ body {
 }
 
 section {
-  /*display: flex;*/
+  display: flex;
+  background-color: orange;
+  margin-bottom: 10px;
 }
+
+.flex-column div{
+  background-color: skyblue;
+  max-width: 90%;
+  /*display: flex;*/
+  /*flex-direction: column-reverse;*/
+}
+
 
 h2 {
   color: #000000;
@@ -43,7 +53,21 @@ nav .menu-bar ul{
 
 /****** Practice section styles ********/
 
-/****** Learning section styles ********/
+/****** Courses section styles ********/
+
+#cards {
+  display: flex;
+  margin: 5px;
+}
+
+.flex-column h2 {
+  color: green;
+  text-align: center;
+}
+
+.card {
+  max-width: 33%;
+}
 
 /******* Thesis exhibit section styles *******/
 
@@ -52,6 +76,10 @@ nav .menu-bar ul{
 footer {
   display: flex;
   justify-content: space-between;
+}
+
+footer .footer_links ul {
+  display: flex;
 }
 
 h1 {
