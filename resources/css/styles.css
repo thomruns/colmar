@@ -234,12 +234,7 @@ nav .menu-bar ul{
 }
 
 
-#information .features .highlight_03 {
-  background-color: #bdbdbd;
-  color: #454545;
-}
-
-#information .features .highlight .info_03 {
+#information .features .highlight:last-child {
   background-color: #bdbdbd;
   color: #454545;
 }
