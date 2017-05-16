@@ -115,12 +115,18 @@ nav .menu-bar ul{
 .hero_content h2 {
   font-size: 2.5rem;
   margin-bottom: 1.25rem;
+  color: #454545;
 }
 
 
 .hero_content p {
   margin-bottom: 20px;
   color: #000;
+}
+
+.hero_content a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .hero_content button {
@@ -135,7 +141,7 @@ nav .menu-bar ul{
 }
 
 .hero_content button:hover {
-  background-color: #000;
+  background-color: #718dea;
 }
 
 /* ** Information section styles ** */
@@ -169,7 +175,7 @@ nav .menu-bar ul{
   padding: 0px;
   font-size: .9rem;
   line-height: 1.2;
-  color: blue;
+  color: #6e6e6e;
 }
 
 #information .info-hero cite {
@@ -187,14 +193,15 @@ nav .menu-bar ul{
   height: auto;
   display: flex;
   flex-direction: column;
-  /*border: 2px solid red;*/
-  margin-top: 24px;
+  border-left: 1px solid #bdbdbd;
+  border-right: 1px solid #bdbdbd;
+  /*margin-top: 24px;*/
   margin-left: -2.75rem;
 }
 
 #information .features .highlight {
   display: flex;
-  border: 1px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
   /*margin-top: .25rem;*/
   padding: .5rem;
   width: auto;
@@ -202,7 +209,7 @@ nav .menu-bar ul{
 }
 #information .features .highlight img {
   max-width: 35%;
-  height: auto;
+  /*height: 150px;*/
   /*border: 2px solid yellow;*/
   padding: .5rem;
   /*max-height: 150px;*/
