@@ -310,6 +310,49 @@ nav .menu-bar ul{
 
 /******* Thesis exhibit section styles *******/
 
+#thesis {
+  display: block;
+  text-align: center;
+}
+
+#thesis .flex-column {
+  display: flex;
+  flex-direction: row;
+}
+
+#thesis .thesis_exhibit {
+  background-color: yellow;
+  width: 66%;
+}
+
+#thesis .thesis_video {
+  /*background-color: green;*/
+  margin-left: 1rem;
+}
+
+#thesis .thesis_video video {
+  width: 95%;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#thesis .thesis_sidebar {
+  background-color: pink;
+  width: 423px;
+}
+
+#thesis .showcase {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 10.5rem;
+  background: blue;
+}
+
+#thesis .showcase img {
+  width: 50%;
+}
+
 /****** Footer styles ***********/
 
 footer {
