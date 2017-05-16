@@ -152,7 +152,7 @@ nav .menu-bar ul{
   margin-left: 24px;
   margin-right: 1.5rem;
   margin-top: 24px;
-  border: 2px solid purple;
+  /*border: 2px solid purple;*/
   width: 65%;
   text-align: left;
 }
@@ -167,6 +167,9 @@ nav .menu-bar ul{
 #information .info-hero p {
   margin: 2rem 0rem;
   padding: 0px;
+  font-size: .9rem;
+  line-height: 1.2;
+  color: blue;
 }
 
 #information .info-hero cite {
@@ -184,39 +187,66 @@ nav .menu-bar ul{
   height: auto;
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   margin-top: 24px;
   margin-left: -2.75rem;
 }
 
 #information .features .highlight {
   display: flex;
-  border: 3px solid turquoise;
-  margin-bottom: 1rem;
-  /*padding: 16px;*/
+  border: 1px solid #bdbdbd;
+  /*margin-top: .25rem;*/
+  padding: .5rem;
   width: auto;
   max-height: 9.375rem;
 }
 #information .features .highlight img {
   max-width: 35%;
+  height: auto;
+  /*border: 2px solid yellow;*/
+  padding: .5rem;
   /*max-height: 150px;*/
 }
 
 #information .features .highlight .info-content {
-  background-color: green;
+  /*background-color: green;*/
   width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-#information .features .highlight .info-third{
-  background-color: #6e6e6e;
+#information .features a {
+  text-decoration: none;
+  color: #454545;
 }
+
+#information .features .highlight a {
+  color: #718dea;
+  font-size: .75em;
+}
+
+
+#information .features .highlight_03 {
+  background-color: #bdbdbd;
+  color: #454545;
+}
+
+#information .features .highlight .info_03 {
+  background-color: #bdbdbd;
+  color: #454545;
+}
+
 
 #information .features .highlight .info-content h3, p {
   padding-left: 16px;
   max-width: 92%;
+  padding-bottom: .5rem;
+}
+
+#information .features .highlight .info-content h3 {
+  color: #454545;
+  font-weight: bolder;
 }
 
 /****** Courses section styles ********/
