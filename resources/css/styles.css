@@ -420,8 +420,24 @@ nav .menu-bar ul{
 footer {
   display: flex;
   justify-content: space-between;
+  font-size: .65rem;
+  color: #6e6e6e;
+  margin-bottom: 2rem;
+}
+
+footer .copyright {
+  /*border: 1px solid red;*/
+  width: 50%;
 }
 
 footer .footer_links ul {
   display: flex;
+}
+
+footer .footer_links li {
+  padding: 0rem .5rem 0rem .5rem;
+}
+
+footer a {
+  text-decoration: none;
 }
