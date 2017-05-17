@@ -457,4 +457,8 @@ footer a {
     visibility: visible;
     display: inline-block;
   }
+
+  .menu-bar a:hover {
+    background-color: #fff;
+  }
 }
