@@ -40,6 +40,7 @@ nav {
   z-index: 5;
 }
 
+
 nav .logo {
   margin-left: 24px;
   display: flex;
@@ -84,6 +85,11 @@ nav .menu-bar ul{
   background-color: #454545;
   color: #fff;
   border-radius: 5px;
+}
+
+nav .vis-mob {
+  visibility: hidden;
+  display: none;
 }
 /****** Main section styles *******/
 
@@ -435,4 +441,20 @@ footer .footer_links li {
 
 footer a {
   text-decoration: none;
+}
+
+/*****  Media Queries **********/
+
+
+@media only screen and (max-width: 470px) {
+
+  nav .hidden-mob {
+    visibility: hidden;
+    display: none;
+  }
+
+  nav .vis-mob {
+    visibility: visible;
+    display: inline-block;
+  }
 }
