@@ -372,9 +372,6 @@ nav .vis-mob {
   padding-bottom: 2rem;
 }
 
-#thesis {
-  /*border: 2px solid purple;*/
-}
 
 #thesis .thesis_sidebar {
   /*border: 4px solid green;*/
@@ -459,270 +456,330 @@ footer a {
 
   /**** Navigation ********/
 
-  nav .hidden-mob {
-    visibility: hidden;
-    display: none;
-  }
+    nav .hidden-mob {
+      visibility: hidden;
+      display: none;
+    }
 
-  nav .vis-mob {
-    visibility: visible;
-    display: inline-block;
-  }
+    nav .vis-mob {
+      visibility: visible;
+      display: inline-block;
+    }
 
-  .menu-bar a:hover {
-    background-color: #fff;
-  }
+    .menu-bar a:hover {
+      background-color: #fff;
+    }
 
-  /******* Main Section *****************************************/
+    /******* Main Section *****************************************/
 
-  #main  .hidden-mob {
-    visibility: hidden;
-    display: none;
-  }
+    #main  .hidden-mob {
+      visibility: hidden;
+      display: none;
+    }
 
-  #main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /*border: 1px solid red;*/
-  }
+    #main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /*border: 1px solid red;*/
+    }
 
-  #main .img_ctr {
-    margin: 0;
-    height: 180px;
-  }
+    #main .img_ctr {
+      margin: 0;
+      height: 180px;
+    }
 
-  #main .vis-mob {
-    height: 180px;
-    background-color: #6e6e6e;
-    width: 100%;
-    /*border: 1px solid blue;*/
-  }
+    #main .vis-mob {
+      height: 180px;
+      background-color: #6e6e6e;
+      width: 100%;
+      /*border: 1px solid blue;*/
+    }
 
-  #main .hero_content {
-    text-align: left;
-    margin-left: 0rem;
-    max-width: 100%;
-    /*border: 1px solid yellow;*/
-  }
+    #main .hero_content {
+      text-align: left;
+      margin-left: 0rem;
+      max-width: 100%;
+      /*border: 1px solid yellow;*/
+    }
 
-  .hero_content h2 {
-    font-size: 1.5rem;
-    margin: 2rem 1rem;
-    color: #454545;
-    line-height: 1.5;
-    letter-spacing: 1px;
-  }
+    .hero_content h2 {
+      font-size: 1.5rem;
+      margin: 2rem 1rem;
+      color: #454545;
+      line-height: 1.5;
+      letter-spacing: 1px;
+    }
 
-  .hero_content p {
-    margin: 2rem 1rem;
-    padding: 0;
-    line-height: 1.4;
-  }
+    .hero_content p {
+      margin: 2rem 1rem;
+      padding: 0;
+      line-height: 1.4;
+    }
 
-  .hero_content button {
-    /*border: 1px solid red;*/
-    margin-bottom: 2rem;
-  }
+    .hero_content button {
+      /*border: 1px solid red;*/
+      margin-bottom: 2rem;
+    }
 
   /**** Info section ******************************************/
 
-  #information {
-    /*border: 1px solid green;*/
-    margin: 0;
-    padding: 0;
-  }
+    #information {
+      /*border: 1px solid green;*/
+      margin: 0;
+      padding: 0;
+    }
 
-  #information .info-hero {
-    display: none;
-    visibility: hidden;
-  }
+    #information .info-hero {
+      display: none;
+      visibility: hidden;
+    }
 
-  #information .features {
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    /*border: 2px solid blue;*/
-    margin-top: 0;
-    margin-left: 0rem;
-  }
-
-
-  #information .features .highlight {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-bottom: none;
-    margin-top: .25rem;
-    padding: 0rem;
-    max-height: 100%;
-    /*border: 2px solid green;*/
-  }
+    #information .features {
+      max-width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      /*border: 2px solid blue;*/
+      margin-top: 0;
+      margin-left: 0rem;
+    }
 
 
-#information .features .highlight .info-content {
-    /*background-color: green;*/
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /*border: 1px solid purple;*/
-    line-height: 1.4;
-    font-size: .9rem;
-    color: #6e6e6e;
-}
-
-#information .features .highlight .info-content h3 {
-  padding-top: 1rem;
-}
-
-#information .features .highlight .info-content p {
-  display: block;
-  visibility: visible;
-  color: #000;
-  padding-left: 1rem;
-  max-width: 92%;
-  padding-bottom: .5rem;
-  /*background-color: green;*/
-  /*border: 1px solid red;*/
-}
+    #information .features .highlight {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-bottom: none;
+      margin-top: .25rem;
+      padding: 0rem;
+      max-height: 100%;
+      /*border: 2px solid green;*/
+    }
 
 
-#information .features .highlight .dt_img {
-    display: none;
-    visibility: hidden;
-}
+    #information .features .highlight .info-content {
+        /*background-color: green;*/
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /*border: 1px solid purple;*/
+        line-height: 1.4;
+        font-size: .9rem;
+        color: #6e6e6e;
+      }
 
-#information .features .highlight .mobile_img {
-    display: block;
-    visibility: visible;
-}
+    #information .features .highlight .info-content h3 {
+      padding-top: 1rem;
+    }
+
+    #information .features .highlight .info-content p {
+      display: block;
+      visibility: visible;
+      color: #000;
+      padding-left: 1rem;
+      max-width: 92%;
+      padding-bottom: .5rem;
+      /*background-color: green;*/
+      /*border: 1px solid red;*/
+    }
 
 
-  #information .features .highlight img {
-    max-width: 95%;
-    height: auto;
-    object-fit: contain;
-    /*border: 2px solid yellow;*/
-    /*margin-left: 1rem;*/
-    /*margin: 1rem;*/
-  }
+    #information .features .highlight .dt_img {
+        display: none;
+        visibility: hidden;
+    }
 
-  #information .features .highlight:last-child {
-    background-color: #fff;
-    color: #6e6e6e;
-    padding: 0rem;
-    /*border: 1px solid yellow;*/
-  }
+    #information .features .highlight .mobile_img {
+        display: block;
+        visibility: visible;
+    }
 
-/********** Courses Section *************************************/
 
-#courses {
-  background-color: #fff;
-  /*border: 2px solid blue;*/
-  display: flex;
-  justify-content: center;
-  max-width: 100%;
-}
+    #information .features .highlight img {
+      max-width: 95%;
+      height: auto;
+      object-fit: contain;
+      /*border: 2px solid yellow;*/
+      /*margin-left: 1rem;*/
+      /*margin: 1rem;*/
+    }
 
-.flex-column {
-  width: 100%;
-  /*border: 2px solid rebeccapurple;*/
-}
+    #information .features .highlight:last-child {
+      background-color: #fff;
+      color: #6e6e6e;
+      padding: 0rem;
+      /*border: 1px solid yellow;*/
+    }
 
-.flex-column h2 {
-  font-size: 2rem;
-}
+  /********** Courses Section *************************************/
 
-#cards {
-  display: flex;
-  flex-direction: column;
-  /*justify-content: center;*/
-  /*flex-wrap: nowrap;*/
-  align-content: center;
-  /*flex-wrap: wrap;*/
-  margin: 0 auto;
-  padding: 0rem .5rem 0rem .5rem;
-  /*border: 3px solid green;*/
-  max-width: 100%;
-}
+    #courses {
+      background-color: #fff;
+      /*border: 2px solid blue;*/
+      display: flex;
+      justify-content: center;
+      max-width: 100%;
+    }
 
-.card {
-  background-color: #fff;
-  /*flex-grow: 0 1 calc(25% - 2rem);*/
-  /*border: 1px solid black;*/
-  width: 100%;
-  margin-bottom: .5rem;
-}
+    .flex-column {
+      width: 100%;
+      /*border: 2px solid rebeccapurple;*/
+    }
 
-.card .card_content a{
-  text-decoration: none;
-  color: #6e6e6e;
-}
-.card .card_content h3 {
-  color: #454545;
-  margin: 0;
-  width: 100%;
-  font-size: .9rem;
-  font-weight: 700;
-  background-color: lightgray;
-  padding: 1rem;
-  /*border: 2px solid orange;*/
-  text-align: left;
-}
+    .flex-column h2 {
+      font-size: 2rem;
+    }
 
-.card .thumbnail img{
-  display: none;
-  visibility: hidden;
-}
+    #cards {
+      display: flex;
+      flex-direction: column;
+      /*justify-content: center;*/
+      /*flex-wrap: nowrap;*/
+      align-content: center;
+      /*flex-wrap: wrap;*/
+      margin: 0 auto;
+      padding: 0rem .5rem 0rem .5rem;
+      /*border: 3px solid green;*/
+      max-width: 100%;
+    }
 
-.card .card_content p {
-  display: none;
-  visibility: none;
-}
+    .card {
+      background-color: #fff;
+      /*flex-grow: 0 1 calc(25% - 2rem);*/
+      /*border: 1px solid black;*/
+      width: 100%;
+      margin-bottom: .5rem;
+    }
 
-.card .card_content .courses {
-  display: none;
-  visibility: none;
-}
+    .card .card_content a {
+      text-decoration: none;
+      color: #6e6e6e;
+    }
+    .card .card_content h3 {
+      color: #454545;
+      margin: 0;
+      width: 100%;
+      font-size: .9rem;
+      font-weight: 700;
+      background-color: lightgray;
+      padding: 1rem;
+      /*border: 2px solid orange;*/
+      text-align: left;
+    }
 
-/*************** Thesis Styles *****************************************/
+    .card .thumbnail img {
+      display: none;
+      visibility: hidden;
+    }
 
-#thesis .flex-column {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  max-width: 100%;
-  border: 1px solid purple;
-  padding: 0rem;
-}
+    .card .card_content p {
+      display: none;
+      visibility: hidden;
+    }
 
-#thesis h2 {
-  font-size: 1.5rem;
-  color: #454545;
-}
+    .card .card_content .courses {
+      display: none;
+      visibility: hidden;
+    }
 
-#thesis .thesis_sidebar, p, h4 {
-  display: none;
-  visibility: hidden;
-}
+  /*************** Thesis Styles *****************************************/
 
-#thesis .thesis_exhibit {
-  width: inherit;
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*justify-content: flex-end;*/
-  border: 2px solid green;
-}
+    #thesis {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 100%;
+    }
 
-#thesis .thesis_video {
-  background-color: yellow;
-  padding-bottom: 1rem;
-  margin: 0rem 0rem 0rem 0rem;
-  text-align: left;
-  max-width: 100%;
-}
+    #thesis h2 {
+      font-size: 1.5rem;
+      color: #454545;
+    }
+
+    #thesis .flex-column {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      padding: 0rem;
+      /*border: 3px solid purple;*/
+    }
+
+    #thesis .thesis_sidebar, p, h4 {
+      display: none;
+      visibility: hidden;
+    }
+
+
+    #thesis .thesis_exhibit {
+      /*background-color: blue;*/
+      /*border: 4px solid orange;*/
+      width: inherit;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-content: center;
+      margin: auto;
+      padding: 0rem;
+    }
+
+    #thesis .thesis_video {
+      /*background-color: green;*/
+      margin: auto;
+      /*border: 4px solid gray;*/
+      /*margin: 0rem;*/
+      /*text-align: left;*/
+    }
+
+    #thesis .thesis_video video {
+      /*background-color: yellow;*/
+      /*border: 2px solid yellow;*/
+      padding-bottom: 1rem; /*testing purposes only; remove*/
+      margin: auto;
+      /*text-align: center;*/
+      max-width: 100%;
+
+    }
+
+
+ /********* Footer ******************************/
+
+   footer {
+     display: flex;
+     justify-content: space-between;
+     font-size: .65rem;
+     margin-top: 1rem;
+     margin-bottom: 2rem;
+   }
+
+   footer .copyright {
+     border: 1px solid red;
+     /*background-color: gray;*/
+     width: 80%;
+   }
+
+   footer .copyright p {
+     border: 1px solid green;
+      color: #000;
+      line-height: 1.5;
+      padding: 1rem;
+   }
+
+   footer .footer_links ul {
+     display: flex;
+   }
+
+   footer .footer_links li {
+     padding: 0rem .5rem 0rem .5rem;
+     border: 1px solid blue;
+   }
+
+   footer a {
+     text-decoration: none;
+   }
+
 
 
 
