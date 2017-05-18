@@ -4,6 +4,8 @@ The file structure for the site consists of an index.html page in the root site 
 
 Updated 5.16.17: A second page was added to test out links on the index page.
 
+Update 5.18.17: CSS validated and (2)errors found/corrected.
+
 You may go directly to the page here:
 
 https://thomruns.github.io/colmar/
