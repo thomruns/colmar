@@ -11,15 +11,10 @@ body {
 
 section {
   display: flex;
-  /*background-color: orange;*/
-  /*margin-bottom: 10px;*/
 }
 
-.flex-column div{
-  /*background-color: skyblue;*/
+.flex-column div {
   max-width: 90%;
-  /*display: flex;*/
-  /*flex-direction: column-reverse;*/
 }
 
 
@@ -153,18 +148,14 @@ nav .vis-mob {
 /* ** Information section styles ** */
 
 #information {
-    /*background-color: purple;*/
     color: #000;
-    /*margin: 32px 0px 32px 0px;*/
     width: auto;
 }
 
 #information .info-hero {
-  /*background-color: blue;*/
   margin-left: 24px;
   margin-right: 1.5rem;
   margin-top: 24px;
-  /*border: 2px solid purple;*/
   width: 65%;
   text-align: left;
 }
@@ -200,25 +191,19 @@ nav .vis-mob {
   display: flex;
   flex-direction: column;
   border-left: 1px solid #bdbdbd;
-  /*border-right: 1px solid #bdbdbd;*/
-  /*margin-top: 24px;*/
   margin-left: -2.75rem;
 }
 
 #information .features .highlight {
   display: flex;
   border-bottom: 1px solid #bdbdbd;
-  /*margin-top: .25rem;*/
   padding: .5rem;
   width: auto;
   max-height: 9.375rem;
 }
 #information .features .highlight img {
   max-width: 35%;
-  /*height: 150px;*/
-  /*border: 2px solid yellow;*/
   padding: .5rem;
-  /*max-height: 150px;*/
 }
 
 #information .features .highlight .mobile_img {
@@ -227,7 +212,6 @@ nav .vis-mob {
 }
 
 #information .features .highlight .info-content {
-  /*background-color: green;*/
   width: auto;
   display: flex;
   flex-direction: column;
@@ -284,8 +268,6 @@ nav .vis-mob {
 
 .card {
   background-color: #fff;
-  /*flex-grow: 0 1 calc(25% - 2rem);*/
-  /*border: 1px solid black;*/
   width: calc(33% - 2rem);
   margin-bottom: 1rem;
 }
@@ -337,16 +319,10 @@ nav .vis-mob {
 }
 
 #thesis .thesis_exhibit {
-  /*background-color: yellow;*/
-  /*border: 2px solid green;*/
   width: 66%;
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*justify-content: flex-end;*/
 }
 
 #thesis .thesis_video {
-  /*background-color: green;*/
   margin-left: 1.5rem;
   text-align: left;
 }
@@ -374,22 +350,17 @@ nav .vis-mob {
 
 
 #thesis .thesis_sidebar {
-  /*border: 4px solid green;*/
   width: 26.44rem;
 }
 
 #thesis .thesis_highlights {
-  /*border: 5px solid red;*/
   width: auto;
   padding: 0;
   max-width: 100%;
 }
 
 #thesis .showcase {
-  /*background: green;*/
-  /*border: 2px solid #013bfa;*/
   display: flex;
-  /*justify-content: center;*/
   align-items: center;
   height: 10.5rem;
   max-width: 100%;
@@ -413,14 +384,10 @@ nav .vis-mob {
 }
 
 #thesis .showcase img {
-  /*border: 1px solid yellow;*/
   max-width: 33%;
   padding: 1rem 0rem 1rem 1rem;
 }
 
-#thesis .showcase_content {
-  /*border: 1px solid blue;*/
-}
 
 /****** Footer styles ***********/
 
@@ -433,7 +400,6 @@ footer {
 }
 
 footer .copyright {
-  /*border: 1px solid red;*/
   width: 50%;
 }
 
@@ -482,7 +448,6 @@ footer a {
       display: flex;
       flex-direction: column;
       align-items: center;
-      /*border: 1px solid red;*/
     }
 
     #main .img_ctr {
@@ -494,14 +459,12 @@ footer a {
       height: 180px;
       background-color: #6e6e6e;
       width: 100%;
-      /*border: 1px solid blue;*/
     }
 
     #main .hero_content {
       text-align: left;
       margin-left: 0rem;
       max-width: 100%;
-      /*border: 1px solid yellow;*/
     }
 
     .hero_content h2 {
@@ -519,14 +482,12 @@ footer a {
     }
 
     .hero_content button {
-      /*border: 1px solid red;*/
       margin-bottom: 2rem;
     }
 
   /**** Info section ******************************************/
 
     #information {
-      /*border: 1px solid green;*/
       margin: 0;
       padding: 0;
     }
@@ -541,7 +502,6 @@ footer a {
       height: auto;
       display: flex;
       flex-direction: column;
-      /*border: 2px solid blue;*/
       margin-top: 0;
       margin-left: 0rem;
     }
@@ -555,17 +515,14 @@ footer a {
       margin-top: .25rem;
       padding: 0rem;
       max-height: 100%;
-      /*border: 2px solid green;*/
     }
 
 
     #information .features .highlight .info-content {
-        /*background-color: green;*/
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /*border: 1px solid purple;*/
         line-height: 1.4;
         font-size: .9rem;
         color: #6e6e6e;
@@ -582,8 +539,6 @@ footer a {
       padding-left: 1rem;
       max-width: 92%;
       padding-bottom: .5rem;
-      /*background-color: green;*/
-      /*border: 1px solid red;*/
     }
 
 
@@ -602,23 +557,18 @@ footer a {
       max-width: 95%;
       height: auto;
       object-fit: contain;
-      /*border: 2px solid yellow;*/
-      /*margin-left: 1rem;*/
-      /*margin: 1rem;*/
     }
 
     #information .features .highlight:last-child {
       background-color: #fff;
       color: #6e6e6e;
       padding: 0rem;
-      /*border: 1px solid yellow;*/
     }
 
   /********** Courses Section *************************************/
 
     #courses {
       background-color: #fff;
-      /*border: 2px solid blue;*/
       display: flex;
       justify-content: center;
       max-width: 100%;
@@ -626,7 +576,6 @@ footer a {
 
     .flex-column {
       width: 100%;
-      /*border: 2px solid rebeccapurple;*/
     }
 
     .flex-column h2 {
@@ -636,20 +585,14 @@ footer a {
     #cards {
       display: flex;
       flex-direction: column;
-      /*justify-content: center;*/
-      /*flex-wrap: nowrap;*/
       align-content: center;
-      /*flex-wrap: wrap;*/
       margin: 0 auto;
       padding: 0rem .5rem 0rem .5rem;
-      /*border: 3px solid green;*/
       max-width: 100%;
     }
 
     .card {
       background-color: #fff;
-      /*flex-grow: 0 1 calc(25% - 2rem);*/
-      /*border: 1px solid black;*/
       width: 100%;
       margin-bottom: .5rem;
     }
@@ -666,7 +609,6 @@ footer a {
       font-weight: 700;
       background-color: lightgray;
       padding: 1rem;
-      /*border: 2px solid orange;*/
       text-align: left;
     }
 
@@ -705,7 +647,6 @@ footer a {
       justify-content: center;
       width: 100%;
       padding: 0rem;
-      /*border: 3px solid purple;*/
     }
 
     #thesis .thesis_sidebar {
@@ -720,8 +661,6 @@ footer a {
 
 
     #thesis .thesis_exhibit {
-      /*background-color: blue;*/
-      /*border: 4px solid orange;*/
       width: inherit;
       display: flex;
       flex-direction: row;
@@ -732,18 +671,11 @@ footer a {
     }
 
     #thesis .thesis_video {
-      /*background-color: green;*/
       margin: auto;
-      /*border: 4px solid gray;*/
-      /*margin: 0rem;*/
-      /*text-align: left;*/
     }
 
     #thesis .thesis_video video {
-      /*background-color: yellow;*/
-      /*border: 2px solid yellow;*/
       margin: auto;
-      /*text-align: center;*/
       max-width: 100%;
 
     }
@@ -752,20 +684,14 @@ footer a {
  /********* Footer ******************************/
 
    footer {
-     /*display: block;*/
-     /*justify-content: space-between;*/
      font-size: .65rem;
      color: #000;
      margin-bottom: 1rem;
      margin-top: 1rem;
      width: auto;
-     /*border: 2px solid blue;*/
-     /*background-color: #bdbdbd;*/
    }
 
    footer .copyright {
-     /*border: 1px solid red;*/
-     /*background-color: gray;*/
      width: 100%;
      height: 2rem;
      margin-left: 1rem;
