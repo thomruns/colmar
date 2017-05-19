@@ -1,0 +1,39 @@
+body {
+  font-family: "Raleway","Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  color: #6276b7;
+  text-align: center;
+}
+
+img {
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+a {
+  padding: 0rem .2rem 0rem .2rem;
+}
+
+.tagline {
+  font-weight: lighter;
+}
+
+.tagline .name1 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.tagline .name2 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
