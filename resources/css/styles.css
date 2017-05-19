@@ -77,7 +77,7 @@ nav .menu-bar ul{
 }
 
 .menu-bar a:hover {
-  background-color: #454545;
+  background-color: #6276b7;
   color: #fff;
   border-radius: 5px;
 }
@@ -142,7 +142,7 @@ nav .vis-mob {
 }
 
 .hero_content button:hover {
-  background-color: #718dea;
+  background-color: #6276b7;
 }
 
 /* ** Information section styles ** */
@@ -176,9 +176,13 @@ nav .vis-mob {
 }
 
 #information .info-hero cite {
+  display: block;
   font-weight: 400;
   font-style: italic;
+  padding-bottom: 1.25rem;
 }
+
+
 
 #information .info-hero img {
   max-width: 92%;
@@ -224,7 +228,7 @@ nav .vis-mob {
 }
 
 #information .features .highlight a {
-  color: #718dea;
+  color: #6276b7;
   font-size: .75em;
 }
 
@@ -285,6 +289,10 @@ nav .vis-mob {
 .card .card_content a{
   text-decoration: none;
   color: #6e6e6e;
+}
+
+.card .card_content a:hover {
+  color: #6276b7;
 }
 
 .card .card_content .courses {
