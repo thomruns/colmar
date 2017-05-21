@@ -8,7 +8,6 @@ COLOR PALETTE:
 ********************/
 
 
-
 body {
   font-family: "Raleway","Helvetica", "Arial", sans-serif;
   font-size: 16px;
@@ -448,7 +447,6 @@ footer a {
 }
 
 /*****  Media Queries ****************************************************/
-
 
 @media only screen and (max-width: 470px) {
 
