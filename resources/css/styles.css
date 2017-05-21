@@ -295,6 +295,7 @@ nav .vis-mob {
   background-color: #fff;
   width: calc(33% - 2rem);
   margin-bottom: 1rem;
+  box-shadow: 3px 3px 3px #6e6e6e;
 }
 
 .card .thumbnail img{
@@ -627,6 +628,7 @@ footer a {
       background-color: #fff;
       width: 100%;
       margin-bottom: .5rem;
+      box-shadow: none;
     }
 
     .card .card_content a {
