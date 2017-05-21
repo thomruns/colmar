@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  color: #6276b7;
+  color: #1c5d99;
   text-align: center;
 }
 
@@ -24,16 +24,24 @@ a {
   padding: 0rem .2rem 0rem .2rem;
 }
 
+a:hover {
+  color: #ffffff;
+  background-color: #1c5d99;
+  border-radius: 3px;
+}
+
 .tagline {
   font-weight: lighter;
 }
 
 .tagline .name1 {
+  color: #1c5d99;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .tagline .name2 {
+  color: #1c5d99;
   font-weight: 400;
   text-transform: uppercase;
 }
