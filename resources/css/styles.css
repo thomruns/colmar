@@ -1,3 +1,14 @@
+/************************
+COLOR PALETTE:
+#222222 dark blue
+#ffffff white
+#1c5d99 mid blue
+#6276b7 hero blue
+#bbcde5 light blue
+********************/
+
+
+
 body {
   font-family: "Raleway","Helvetica", "Arial", sans-serif;
   font-size: 16px;
@@ -39,7 +50,16 @@ nav {
 nav .logo {
   margin-left: 24px;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
+}
+
+nav .logo img {
+  width: auto;
+  height: 90%;
+  padding: 0;
+  padding: 0px;
+  margin-right: 0px;
 }
 
 nav .menu-bar {
@@ -49,11 +69,12 @@ nav .menu-bar {
 
 nav .logo span {
   font-weight: 700;
+  margin-left: -1rem;
 }
 
 nav .logo p {
   font-weight: 300;
-  color: black;
+  color: #1c5d99;
   text-transform: uppercase;
 }
 
@@ -73,11 +94,11 @@ nav .menu-bar ul{
 .menu-bar a {
   padding: 5px;
   text-decoration: none;
-  color: #6e6e6e;
+  color: #222222;
 }
 
 .menu-bar a:hover {
-  background-color: #6276b7;
+  background-color: #1c5d99;
   color: #fff;
   border-radius: 5px;
 }
@@ -89,7 +110,7 @@ nav .vis-mob {
 /****** Main section styles *******/
 
 #main {
-  background-color: #bdbdbd;
+  background-color: #bbcde5;
   margin-top: 65px;
   width: auto;
 }
@@ -116,13 +137,13 @@ nav .vis-mob {
 .hero_content h2 {
   font-size: 2.5rem;
   margin-bottom: 1.25rem;
-  color: #454545;
+  color: #222222;
 }
 
 
 .hero_content p {
   margin-bottom: 20px;
-  color: #000;
+  color: #222222;
 }
 
 .hero_content a {
@@ -132,7 +153,7 @@ nav .vis-mob {
 
 .hero_content button {
   width: 90%;
-  background-color: #454545;
+  background-color: #1c5d99;
   border: none;
   border-radius: 5px;
   padding: 8px;
@@ -163,7 +184,7 @@ nav .vis-mob {
 #information .info-hero h2 {
   font-size: 2rem;
   font-weight: 700;
-  color: #454545;
+  color: #222222;
   margin: 2rem 0rem;
 }
 
@@ -172,7 +193,7 @@ nav .vis-mob {
   padding: 0px;
   font-size: .9rem;
   line-height: 1.2;
-  color: #6e6e6e;
+  color: #222222;
 }
 
 #information .info-hero cite {
@@ -180,6 +201,7 @@ nav .vis-mob {
   font-weight: 400;
   font-style: italic;
   padding-bottom: 1.25rem;
+  color: #222222;
 }
 
 
@@ -194,13 +216,13 @@ nav .vis-mob {
   height: auto;
   display: flex;
   flex-direction: column;
-  border-left: 1px solid #bdbdbd;
+  border-left: 1px solid #6276b7;
   margin-left: -2.75rem;
 }
 
 #information .features .highlight {
   display: flex;
-  border-bottom: 1px solid #bdbdbd;
+  border-bottom: 1px solid #6276b7;
   padding: .5rem;
   width: auto;
   max-height: 9.375rem;
@@ -224,7 +246,7 @@ nav .vis-mob {
 
 #information .features a {
   text-decoration: none;
-  color: #454545;
+  color: #6276b7;
 }
 
 #information .features .highlight a {
@@ -234,7 +256,7 @@ nav .vis-mob {
 
 
 #information .features .highlight:last-child {
-  background-color: #bdbdbd;
+  background-color: #bbcde5;
   color: #454545;
 }
 
@@ -253,7 +275,7 @@ nav .vis-mob {
 /****** Courses section styles ********/
 
 #courses {
-  background-color: lightgray;
+  background-color: #bbcde5;
   padding-bottom: 2rem;
 }
 
@@ -265,7 +287,7 @@ nav .vis-mob {
 }
 
 .flex-column h2 {
-  color: #454545;
+  color: #222222;
   text-align: center;
   margin: 2rem 0;
 }
@@ -281,18 +303,18 @@ nav .vis-mob {
 }
 
 .card .card_content h3 {
-  color: #454545;
+  color: #6276b7;
   margin: 1rem 0 .5rem 1rem;
   font-weight: 700;
 }
 
 .card .card_content a{
   text-decoration: none;
-  color: #6e6e6e;
+  color: #6276b7;
 }
 
 .card .card_content a:hover {
-  color: #6276b7;
+  color: #1c5d99;
 }
 
 .card .card_content .courses {
@@ -318,6 +340,7 @@ nav .vis-mob {
 
 #thesis h2 {
   margin: 2rem 0rem;
+  color: #222222;
 }
 
 #thesis .flex-column {
@@ -342,14 +365,14 @@ nav .vis-mob {
 }
 
 #thesis .thesis_video h4 {
-  color: #454545;
+  color: #222222;
   font-weight: 700;
   margin-left: 0;
   padding: 1.5rem 0 1.5rem 0;
 }
 
 #thesis .thesis_video p {
-  color: #6e6e6e;
+  color: #222222;
   margin-left: -1rem;
   line-height: 1.5;
   font-size: .8rem;
@@ -376,19 +399,19 @@ nav .vis-mob {
 }
 
 #thesis .showcase:first-child {
-  background-color: #bdbdbd;
+  background-color: #bbcde5;
 }
 
 #thesis .showcase h3 {
   padding-left: 1rem;
   padding-bottom: 2rem;
-  color: #454545;
+  color: #222222;
   font-weight: 700;
 }
 
 #thesis .showcase p {
   font-size: .75rem;
-  color: #6e6e6e;
+  color: #222222;
 }
 
 #thesis .showcase img {
@@ -403,7 +426,7 @@ footer {
   display: flex;
   justify-content: space-between;
   font-size: .65rem;
-  color: #6e6e6e;
+  color: #222222;
   margin-bottom: 2rem;
 }
 
@@ -465,7 +488,10 @@ footer a {
 
     #main .vis-mob {
       height: 180px;
-      background-color: #6e6e6e;
+      background-image: url("../images/banner.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
       width: 100%;
     }
 
@@ -477,14 +503,14 @@ footer a {
 
     .hero_content h2 {
       font-size: 1.5rem;
-      margin: 2rem 1rem;
-      color: #454545;
+      margin: 1.5rem 1rem;
+      color: #222222;
       line-height: 1.5;
       letter-spacing: 1px;
     }
 
     .hero_content p {
-      margin: 2rem 1rem;
+      margin: .75rem 1rem;
       padding: 0;
       line-height: 1.4;
     }
@@ -533,7 +559,7 @@ footer a {
         justify-content: center;
         line-height: 1.4;
         font-size: .9rem;
-        color: #6e6e6e;
+        color: #bbcde5;
       }
 
     #information .features .highlight .info-content h3 {
@@ -607,7 +633,7 @@ footer a {
 
     .card .card_content a {
       text-decoration: none;
-      color: #6e6e6e;
+      color: #6276b7;
     }
     .card .card_content h3 {
       color: #454545;
@@ -615,7 +641,7 @@ footer a {
       width: 100%;
       font-size: .9rem;
       font-weight: 700;
-      background-color: lightgray;
+      background-color: #bbcde5;
       padding: 1rem;
       text-align: left;
     }
