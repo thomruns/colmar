@@ -452,6 +452,11 @@ footer a {
 
   /**** Navigation ********/
 
+  nav .logo img {
+    width: 1rem;
+    height: auto;
+  }
+
     nav .hidden-mob {
       visibility: hidden;
       display: none;
